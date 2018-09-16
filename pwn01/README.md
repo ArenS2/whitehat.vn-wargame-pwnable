@@ -64,5 +64,6 @@ Gets và printf nó đều là hàm, nhận tham số ở thèn `rdi`, có `ret`
    + Đến lượt này, đây là lượt nhập thứ 2 của chúng ta nhờ vào thèn `gets`, lúc này sau khi tính toán chúng ta đã có `system` và `/bin/sh`. Đến đây thì xem như xong rồi!
 
 - Code khai thác mình để trong file exp.py.
+
 Ps: Bài này là bài đầu tiên trong chuỗi challenge của whitehat về mảng pwn, theo cảm nhận của mình thì bài này khó hơn 6 bài sau, vì hiện tại mình mới làm được 7 bài : ))
  
