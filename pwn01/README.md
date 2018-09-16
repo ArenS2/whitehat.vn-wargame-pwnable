@@ -11,7 +11,7 @@ nc 103.237.99.35 25031
 ```
 
 # Solution
-- Vì đây là bài write-up đu tiên của mình nên mình xin phép viết hơi dài dòng 1 tí về từng bước làm để các bạn tiện theo dõi, mấy bài sau chắc không có đâu hehe ^^
+- Vì đây là bài write-up đầu tiên của mình nên mình xin phép viết hơi dài dòng 1 tí về từng bước làm để các bạn tiện theo dõi, mấy bài sau chắc không có đâu hehe ^^
 
 - Đầu tiên, sau khi đọc xong phần mô tả của BTC, ta lần lượt tải hết các file về và thu được 2 file: [SimpleBoF](SimpleBoF) and [libc-2.19.so](libc-2.19.so).
 
