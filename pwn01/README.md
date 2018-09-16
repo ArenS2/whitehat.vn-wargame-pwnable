@@ -53,7 +53,7 @@ Gets và printf nó đều là hàm, nhận tham số ở thèn `rdi`, có `ret`
 
 <img src="got.png">
 
-- Trong GOT có hàm `__libc_start_main` của file libc được tải vào bộ nhớ của chúng ta, địa chỉ của hàm đấy được lưu ở địa chỉ 0x601020. Vậy nên nếu chúng ta dùng printf để in giá trị trong địa chỉ 0x601020 thì chúng ta sẽ suy ra được địa chỉ của hàm `__libc_start_main` khi được loaded vào trong bộ nhớ. Lúc này ta có địa chỉ khi loaded của `__libc_start_main` cùng với địa chỉ offset của nó mà chúng ta lại dễ dàng tìm được địa chỉ offset của `system` như lúc trên đã làm từ đó có thể dễ dàng suy ra được địa chỉ khi loaded của hàm `system()` và chuỗi `/bin/sh`. 
+- Trong GOT có hàm `__libc_start_main` của file libc được tải vào bộ nhớ của chúng ta, địa chỉ của hàm đấy được lưu ở địa chỉ 0x601020. Vậy nên nếu chúng ta dùng `printf` để in giá trị trong địa chỉ 0x601020 thì chúng ta sẽ suy ra được địa chỉ của hàm `__libc_start_main` khi được loaded vào trong bộ nhớ. Lúc này ta có địa chỉ khi loaded của `__libc_start_main` cùng với địa chỉ offset của nó mà chúng ta lại dễ dàng tìm được địa chỉ offset của `system` như lúc trên đã làm từ đó có thể dễ dàng suy ra được địa chỉ khi loaded của hàm `system()` và chuỗi `/bin/sh`. 
 
 - Giờ xem như là có hết rồi đấy, tiến trình khai thác nào:
    + Khảo sát lần lượt tìm được offset của 2 hàm `__libc_start_main`, `system` cùng với chuỗi `/bin/sh`. Tìm được địa chỉ trong GOT lưu địa chỉ của hàm `__libc_start_main` sau khi đã được nạp.Tìm thêm được địa chỉ của hàm main (công dụng ở sau) và hàm printf.
