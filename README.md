@@ -8,6 +8,6 @@
    + Chia sẻ `Một quả táo chia làm đôi, mỗi người sẽ còn một nửa. Nhưng tri thức được chia sẻ, nó sẽ được nhân đôi.` @.@
    + Nếu có ai thấy mình sai hoặc hiểu nhầm phần nào mong mọi người góp ý giúp mình với!
 
-- Facebook: https://www.facebook.com/khacbao0203
-- Gmail: baolkschool@gmail.com
+Facebook: https://www.facebook.com/khacbao0203
+Gmail: baolkschool@gmail.com
 
