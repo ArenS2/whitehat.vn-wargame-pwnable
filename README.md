@@ -9,6 +9,4 @@
    + Nếu có ai thấy mình sai hoặc hiểu nhầm phần nào mong mọi người góp ý giúp mình với!
 
 Facebook: https://www.facebook.com/khacbao0203
-
 Gmail: baolkschool@gmail.com
-
