@@ -5,7 +5,7 @@
    + Có trình bày hướng dẫn cách thực hiện ở các bài đầu tiên, mình sẽ cố gắng viết thêm cho các bài còn lại trong thời gian sớm nhất.
 
 **Mục đích:**
-   + Chia sẻ `Một quả táo chia làm đôi, mỗi người sẽ còn một nửa. Nhưng tri thức được chia sẻ, nó sẽ được nhân đôi.` @.@
+   + Chia sẻ. 
    + Nếu có ai thấy mình sai hoặc hiểu nhầm phần nào mong mọi người góp ý giúp mình với!
 
 
